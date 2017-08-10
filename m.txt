@@ -1,0 +1,6 @@
+m			0.4
+alpha			2.0
+density_of_trap		5e16
+Energy_level_of_trap	0.5
+A_2.9e20_2.68e19	1.2e19
+B_2.56e7_5.37e7		2.4e7

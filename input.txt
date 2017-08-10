@@ -1,0 +1,22 @@
+contnumber	3
+
+SOURCE 0.0
+DRAIN  0.0
+BULK   0.0
+
+ndt		3000
+
+outmod		5
+stridestat	1
+stridemr	5
+stridejb	10
+
+dt		5e-16
+
+starttime	1000
+statoutmod	1
+
+fhznumbers	2000
+
+We had better let ndt-starttime even ndt-starttime=2fhznmber.
+

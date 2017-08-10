@@ -1,0 +1,58 @@
+material_Si_0_Ge_1	0
+
+direction	100
+
+surface_scattering_default_electron_0.16_hole_0.35
+tempdifprelecton	0.16	tempdifprhole	0.35
+
+quamtum_effect-broaden_effect-quantum_potential(0_1_potential_2_bohm_3_ndens_4_effective_potential)
+quantumeffectfl		0		0
+
+cut_region
+flag	1
+xcutnumber	7
+1		2		3		4		5		6		7
+0.0005		0.001		0.002		0.004		0.008		0.012		0.05
+ycutnumber	9
+1		2		3		4		5		6		7		8		9
+-0.04		-0.03		-0.025		-0.02		0.0		0.02		0.025		0.03		0.04
+
+mindopeforcoulomb_default_1e16
+1e16
+
+minelectronenergy_default_0.12
+0.12
+
+noise_stat_region
+points_region	0
+		xmin		xmax		ymin		ymax
+
+surfacescattering_range
+surfacescatterfl	1
+xmin1	0.0		xmax1	0.01		ymin1	-0.0275	ymax1	0.0275
+xmin2	0.0		xmax2	0.01		ymin2	-0.0275	ymax2	0.0275
+
+surface_number			2
+surfaceposition_x_1		0.0
+surfaceposition_x_2		0.0
+
+ail_L_2.0			2.0
+delta_0.1126755			0.2
+
+surface_roughness		1
+surface_phonon			0
+surface_impurity		0
+
+ballisticflag			0
+
+self_consistent_0_no_1_yes		0
+
+Band_to_band_tunneling			1
+
+method_for_get_data_from_ise_defalt_1	1
+
+recombination_constant_parameter_r	1e-11
+
+interface_region
+xmin		xmax		ymin		ymax
+0.0		0.002		-0.0325		0.0325
